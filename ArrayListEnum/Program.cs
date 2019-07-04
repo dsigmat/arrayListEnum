@@ -6,10 +6,16 @@ namespace ArrayListEnum
     class Program
     {
         #region Enum
-        enum En
+        enum Days
         {
-            one,
-            two
+            Mon,
+            Tru,
+            Wed,
+            Tro,
+            Fri,
+            Sut,
+            Sun = 1,
+            two = 2
         }
 
         #endregion
@@ -44,6 +50,8 @@ namespace ArrayListEnum
             //}
             #endregion
 
+
+            Console.WriteLine((int)Days.Tro);
 
         }
     }
