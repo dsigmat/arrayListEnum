@@ -6,7 +6,9 @@ namespace ArrayListEnum
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int[] array = new int[10];
+            array[0] = 20;
+            Console.WriteLine(array[0]);
         }
     }
 }
