@@ -5,9 +5,18 @@ namespace ArrayListEnum
 {
     class Program
     {
+        #region Enum
+        enum En
+        {
+            one,
+            two
+        }
+
+        #endregion
+
         static void Main(string[] args)
         {
-            #region array
+            #region Array
             //int[] array = new int[10];
             //array[0] = 20;
             //array[1] = 12;
@@ -21,11 +30,21 @@ namespace ArrayListEnum
             //}
             #endregion
 
-            int[] array = new int[10];
+            #region List
+            //List<int> list = new List<int>();
+            //list.Add(0);
+            //list.Add(1);
+            //list.Add(2);
+            //list.Add(3);
+            //list.Add(4);
 
-            List<int> list = new List<int>();
+            //foreach (var item in list)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            #endregion
 
-            Console.ReadLine();
+
         }
     }
 }
